@@ -1,0 +1,37 @@
+html {
+  width: 100%;
+}
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+  color: white;
+  background-image: url('../assets/background.jpg');
+  background-repeat: repeat;
+  text-align: center;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.705);
+}
+button {
+  background-color: rgb(252, 205, 119);
+  color: white;
+  text-shadow: 0px 2px 2px black;
+  padding: 10px;
+  
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px darkgray;
+}
+button:active {
+  transform: translateY(2px);
+}
+.main {
+  margin: auto;
+  padding: 10px 50px 15px 50px;
+
+  height: 100%;
+  width: 75%;
+  background-color: rgb(105, 223, 255);
+  border:px;
+  border-color: white;
+}
